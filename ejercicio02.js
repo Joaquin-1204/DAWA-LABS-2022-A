@@ -8,9 +8,6 @@ var mult;
 multiplo(resultado, num, mult);
 
 function multiplo(){
-    var resultado="";
-    var num = 7;
-    var mult;
 for(i=1; i<=50; i++){
     mult=num*i;
     resultado=resultado+mult+" ";
