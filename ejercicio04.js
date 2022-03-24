@@ -4,15 +4,7 @@
  * en idioma inglés ("en").
  */
 
- pelis(peliculas);
-
- function pelis(){
-     for(i = 0; i < peliculas.length; i++){
-         if(peliculas[i].original_language == "en"){
-             console.log(peliculas[i])
-         }
-     }
- }
+ 
 
  let peliculas = [
     {
@@ -356,3 +348,12 @@
     },
 ];
   
+pelis(peliculas);
+
+ function pelis(){
+     for(i = 0; i < peliculas.length; i++){
+         if(peliculas[i].original_language == "en"){
+             console.log(peliculas[i])
+         }
+     }
+ }
